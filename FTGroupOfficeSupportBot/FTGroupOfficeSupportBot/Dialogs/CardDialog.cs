@@ -33,9 +33,27 @@ namespace FTGroupOfficeSupportBot.Dialogs
                     Value = "РТС-Тендер",
                     Title = "РТС-Тендер"
                 };
+                var card3 = new CardAction()
+                {
+                    Value = "РТСТ",
+                    Title = "РТСТ"
+                };
+                var card4 = new CardAction()
+                {
+                    Value = "Венчур Lab",
+                    Title = "Венчур Lab"
+                };
+                var card5 = new CardAction()
+                {
+                    Value = "Банк СКИБ",
+                    Title = "Банк СКИБ"
+                };
 
                 cardButton.Add(card1);
                 cardButton.Add(card2);
+                cardButton.Add(card3);
+                cardButton.Add(card4);
+                cardButton.Add(card5);
 
                 var hero = new HeroCard()
                 {

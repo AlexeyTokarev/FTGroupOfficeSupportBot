@@ -28,6 +28,24 @@ namespace FTGroupOfficeSupportBot.Dialogs
                         _qnamakerSubscriptionKey = "850a8ac4def146498ab7e2161cd87c9d";
                         break;
                     }
+                case "РТСТ":
+                    {
+                        _knowledgebaseId = "fb650d73-08aa-4c31-98d4-d682d50c99ce";
+                        _qnamakerSubscriptionKey = "850a8ac4def146498ab7e2161cd87c9d";
+                        break;
+                    }
+                case "Венчур Lab":
+                    {
+                        _knowledgebaseId = "d9a3be38-fc94-4524-8639-a032d7bf8582";
+                        _qnamakerSubscriptionKey = "850a8ac4def146498ab7e2161cd87c9d";
+                        break;
+                    }
+                case "Банк СКИБ":
+                    {
+                        _knowledgebaseId = "c3e0f0cd-3391-4362-b3d7-12e43df79ff3";
+                        _qnamakerSubscriptionKey = "850a8ac4def146498ab7e2161cd87c9d";
+                        break;
+                    }
             }
         }
 

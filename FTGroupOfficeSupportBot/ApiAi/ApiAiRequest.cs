@@ -34,7 +34,7 @@ namespace ApiAi
             {
                 string organization = response.Result.Parameters["Organization"].ToString();
 
-                if (organization == "РТС-Тендер" || organization == "Финтендер")
+                if (organization == "РТС-Тендер" || organization == "Финтендер" || organization == "РТСТ" || organization == "Венчур Lab" || organization == "Банк СКИБ")
                 {
                     result.Organization = organization;
                 }
